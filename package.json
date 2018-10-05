@@ -1,6 +1,6 @@
 {
   "name": "npm-script-up",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds and runs an npm script in `package.json` from the parent directory up to the git root",
   "main": "index.js",
   "scripts": {
