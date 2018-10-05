@@ -24,6 +24,9 @@
     "execa": "1.0.0",
     "fs-extra": "7.0.0"
   },
+  "bin": {
+    "script-up": "bin/script-up"
+  },
   "files": [
     "*.js",
     "bin"
