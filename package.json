@@ -31,8 +31,8 @@
     "*.js",
     "bin"
   ],
-  "homepage": "https://github.com/chrisbreiding/script-up",
-  "repository": "git://github.com/chrisbreiding/script-up.git",
+  "homepage": "https://github.com/chrisbreiding/npm-script-up",
+  "repository": "git://github.com/chrisbreiding/npm-script-up.git",
   "author": "Chris Breiding (http://www.chrisbreiding.com/)",
   "license": "MIT",
   "engines": {

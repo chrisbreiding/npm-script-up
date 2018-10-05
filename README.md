@@ -1,4 +1,4 @@
-# script-up
+# npm-script-up
 
 > Finds and runs an npm script in `package.json` from the parent directory up to the git root
 
@@ -7,7 +7,7 @@ In a monorepo, instead of duplicating dependencies and scripts among packages, y
 ## Install
 
 ```sh
-npm install --save-dev script-up
+npm install --save-dev npm-script-up
 ```
 
 ## Usage
