@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+const execa = require('execa')
+
+// eslint-disable-next-line no-unused-vars
+const [_, __, scriptName, ...args] = process.argv
+
+const scriptUp = require('..')
+
+try {
+  const dir = scriptUp(scriptName)
+  execa.shellSync(`npm run ${scriptName} ${args.join(' ')}`, { stdio: 'inherit', cwd: dir })
+} catch (error) {
+  console.error(error.message) // eslint-disable-line no-console
+  process.exit(1)
+}
